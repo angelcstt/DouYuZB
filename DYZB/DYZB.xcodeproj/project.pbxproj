@@ -11,6 +11,13 @@
 		00FCA2D31F59B96000BF002E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FCA2D11F59B96000BF002E /* Main.storyboard */; };
 		00FCA2D51F59B96000BF002E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FCA2D41F59B96000BF002E /* Assets.xcassets */; };
 		00FCA2D81F59B96000BF002E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FCA2D61F59B96000BF002E /* LaunchScreen.storyboard */; };
+		00FCA2E81F59CFDD00BF002E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FCA2E61F59CFDD00BF002E /* Home.storyboard */; };
+		00FCA2EB1F59D02E00BF002E /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FCA2E91F59D02E00BF002E /* Live.storyboard */; };
+		00FCA2EE1F59D04700BF002E /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FCA2EC1F59D04700BF002E /* Follow.storyboard */; };
+		00FCA2F11F59D06100BF002E /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FCA2EF1F59D06100BF002E /* Profile.storyboard */; };
+		00FCA2FB1F59D88500BF002E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FCA2F81F59D88500BF002E /* MainViewController.swift */; };
+		00FCA2FD1F59D90F00BF002E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FCA2FC1F59D90F00BF002E /* HomeViewController.swift */; };
+		00FCA3001F59ECE800BF002E /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FCA2FF1F59ECE800BF002E /* UIBarButtonItem-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		00FCA2D41F59B96000BF002E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00FCA2D71F59B96000BF002E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00FCA2D91F59B96000BF002E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00FCA2E71F59CFDD00BF002E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYZB/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		00FCA2EA1F59D02E00BF002E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYZB/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		00FCA2ED1F59D04700BF002E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYZB/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
+		00FCA2F01F59D06100BF002E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYZB/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		00FCA2F81F59D88500BF002E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		00FCA2FC1F59D90F00BF002E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		00FCA2FF1F59ECE800BF002E /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +68,6 @@
 			children = (
 				00FCA2DF1F59C08200BF002E /* Classes */,
 				00FCA2CD1F59B96000BF002E /* AppDelegate.swift */,
-				00FCA2D11F59B96000BF002E /* Main.storyboard */,
 				00FCA2D41F59B96000BF002E /* Assets.xcassets */,
 				00FCA2D61F59B96000BF002E /* LaunchScreen.storyboard */,
 				00FCA2D91F59B96000BF002E /* Info.plist */,
@@ -78,6 +91,7 @@
 		00FCA2E01F59C08200BF002E /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				00FCA2EC1F59D04700BF002E /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -85,6 +99,9 @@
 		00FCA2E11F59C08200BF002E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				00FCA2F51F59D80A00BF002E /* Model */,
+				00FCA2F61F59D80A00BF002E /* View */,
+				00FCA2F41F59D80A00BF002E /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -92,6 +109,7 @@
 		00FCA2E21F59C08200BF002E /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				00FCA2E91F59D02E00BF002E /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -99,6 +117,9 @@
 		00FCA2E31F59C08200BF002E /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				00FCA2F91F59D88500BF002E /* Model */,
+				00FCA2FA1F59D88500BF002E /* View */,
+				00FCA2F71F59D88500BF002E /* Controller */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -106,6 +127,7 @@
 		00FCA2E41F59C08200BF002E /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				00FCA2EF1F59D06100BF002E /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -113,8 +135,63 @@
 		00FCA2E51F59C08200BF002E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				00FCA2FE1F59ECA200BF002E /* Extension */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		00FCA2F41F59D80A00BF002E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00FCA2E61F59CFDD00BF002E /* Home.storyboard */,
+				00FCA2FC1F59D90F00BF002E /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		00FCA2F51F59D80A00BF002E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00FCA2F61F59D80A00BF002E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00FCA2F71F59D88500BF002E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00FCA2D11F59B96000BF002E /* Main.storyboard */,
+				00FCA2F81F59D88500BF002E /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		00FCA2F91F59D88500BF002E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00FCA2FA1F59D88500BF002E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00FCA2FE1F59ECA200BF002E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				00FCA2FF1F59ECE800BF002E /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +257,10 @@
 				00FCA2D81F59B96000BF002E /* LaunchScreen.storyboard in Resources */,
 				00FCA2D51F59B96000BF002E /* Assets.xcassets in Resources */,
 				00FCA2D31F59B96000BF002E /* Main.storyboard in Resources */,
+				00FCA2EB1F59D02E00BF002E /* Live.storyboard in Resources */,
+				00FCA2E81F59CFDD00BF002E /* Home.storyboard in Resources */,
+				00FCA2F11F59D06100BF002E /* Profile.storyboard in Resources */,
+				00FCA2EE1F59D04700BF002E /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				00FCA2CE1F59B96000BF002E /* AppDelegate.swift in Sources */,
+				00FCA2FB1F59D88500BF002E /* MainViewController.swift in Sources */,
+				00FCA3001F59ECE800BF002E /* UIBarButtonItem-Extension.swift in Sources */,
+				00FCA2FD1F59D90F00BF002E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +287,7 @@
 				00FCA2D21F59B96000BF002E /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		00FCA2D61F59B96000BF002E /* LaunchScreen.storyboard */ = {
@@ -211,6 +296,42 @@
 				00FCA2D71F59B96000BF002E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00FCA2E61F59CFDD00BF002E /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00FCA2E71F59CFDD00BF002E /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../../Main;
+			sourceTree = "<group>";
+		};
+		00FCA2E91F59D02E00BF002E /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00FCA2EA1F59D02E00BF002E /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		00FCA2EC1F59D04700BF002E /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00FCA2ED1F59D04700BF002E /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		00FCA2EF1F59D06100BF002E /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00FCA2F01F59D06100BF002E /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../Main;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -316,7 +437,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = DNABWYP3Z9;
 				INFOPLIST_FILE = DYZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.angelcstt.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -331,7 +452,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = DNABWYP3Z9;
 				INFOPLIST_FILE = DYZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.angelcstt.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
